@@ -1,0 +1,15 @@
+6. Modify the program in 5, and add two new functions. One that will sort the elements, and the second one will reverse the elements
+before printing (so before printing the list of odd numbers for example, sort then reverse then print).
+
+var a = [17, 24, 15, 26, 19, 30, 2, 66, 40];
+var b = [];
+
+ for (i = 0; i < a.length; i++){
+  if (a[i] % 2=== 0 )  {
+    b.push(a[i]);
+    b.sort(a[i]);
+    b.reverse(a[i]);
+      
+  }
+}
+console.log(b);

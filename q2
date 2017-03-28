@@ -1,0 +1,87 @@
+2. Modify the pseudocode in 1, and also print the minimum of such odd numbers.array sort
+Var a = [17, 24, 4, 26, 19, 30, 2, 66, 40];
+
+
+Var min odd = a[0];
+Var position = 0;
+Var lenght_of_array = a.lenght;
+While (position<lenght_of_array) {
+If (a[position] < min odd ){
+     Min odd = a(position);
+}
+Print a(position);
+}
+Position = position + 1;
+}
+
+.....................................................
+var a = [17, 24, 15, 26, 19, 30,20,66, 40];
+
+var min_o= a[0];
+ for (i = 1; i < a.length; i++){
+  if (a[i] <min_o){
+        min_o=a[i];
+        
+    
+    }
+}
+console.log(min_o);
+
+var min_o= 99999999;
+ for (i = 0; i < a.length; i++){
+  if (a[i] <min_o){
+        min_o=a[i];
+        
+    
+    }
+}
+console.log(min_o);
+
+
+
+
+
+var a = [10,5, 26, 19, 30,20,66, 40];
+b = [];
+
+ for (i = 0; i < a.length; i++){
+  if (a[i] % 2=== 0 )  {
+        b.push(a[i]);
+      
+  }
+}
+      console.log(b);
+      
+var min_o= b[0];
+ for (i =1; i < b.length; i++){
+  if (b[i] <min_o){
+        min_o=b[i];
+        
+    
+    }
+}
+console.log(min_o);
+-------------------------------------------------------------------------
+var m = [1,3,5,8,9,4,2,6];
+n = [];
+ min = 99999;
+console.log(even_number(m));
+function even_number(x) {
+  for (i=0; i < x.length ; i++){
+    if (x[i] %2 === 0){
+      n.push(x[i]);
+      
+      }
+      
+    }
+  return n;
+}
+console.log(min_number(n));
+function min_number(x) {
+  for (i=0; i < x.length ; i++){
+    if (x[i] < min){
+      min = x[i];
+      }
+    }
+ return min;
+}

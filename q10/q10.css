@@ -1,0 +1,33 @@
+.zoom-modal .zoom-photo-container .facade-of-protection-zoom{
+    z-index: 4;
+}
+.zoom-modal .zoom-photo-container .facade-of-protection-zoom, .zoom-modal .zoom-photo-container img {
+    position: absolute;
+    margin: 100px;
+    width: 100%;
+    height: 100%;
+    }
+    .zoom-modal {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: zoom-out;
+}
+body:after {
+    position: fixed;
+    background-color: #128fdc;
+    height: 2px;
+    width: 10%;
+    top: 50px;
+    left: 0;
+    z-index: 500;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    content: '';
+    opacity: 1;
+    transition: opacity .25s;
+    
+    animation: loadanimation 10s ease-in-out infinite;
+}

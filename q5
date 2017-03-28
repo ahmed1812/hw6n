@@ -1,0 +1,21 @@
+5. Convert the program in 4 to JavaScript.
+var a = (17, 24, 4, 26, 19, 30, 2, 66, 40);
+
+var a = [23, 5, 6, 7, 3, 46, 24, 74, 82, 13, 46];
+ 
+
+ for (i = 0; i < a.length; i++){
+  if (a[i] % 2 !== 0 )  {
+    if ( a[i] < i ){
+      console.log(a[i] );
+  }
+}
+}
+for (i = 0; i < a.length; i++){
+  if (a[i] % 2 === 0 )  {
+    if (a[i] < i )  {
+    
+    console.log(a[i] );
+  }
+}
+}

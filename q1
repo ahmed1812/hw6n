@@ -1,0 +1,25 @@
+1.You are given an array of elements [17, 24, 4, 26, 19, 30, 2, 66, 40]. Print out all odd number.
+
+Var a = [17, 24, 4, 26, 19, 30, 2, 66, 40];
+Var odd = a[0];
+Var position = 0;
+Var lenght_of_array = a.lenght;
+While (position<lenght_of_array) {
+If (a[position] < odd var a){
+     Print a(position);
+}
+Position = position + 1;
+}
+
+.......................................................................
+
+var a = [17, 24, 15, 26, 19, 30, 2, 66, 40];
+b = [];
+
+ for (i = 0; i < a.length; i++){
+  if (a[i] % 2!== 0 )  {
+        b.push(a[i]);
+      
+  }
+}
+      console.log(b);

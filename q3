@@ -1,0 +1,100 @@
+3. Modify the pseudocode in 2 such that the code that determines whether the number is odd or even should be in a separate function called: isOdd, and it should return true if it is odd, and false if it is even.
+
+
+Var a = [17, 24, 4, 26, 19, 30, 2, 66, 40];
+Odd = true;
+Even = false;
+Var position = 0;
+Var lenght_of_array = a.lenght;
+Function Odd (position<lenght_of_array){
+     If (a[position] = odd ){
+Odd = true;
+}  
+   if{ 
+(a[position] = even {
+Odd = false ; 
+}
+Print a(position);
+}
+Position = position + 1;
+}
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+var a = [17, 24, 4, 26, 19, 30, 2, 66, 40];
+var b = [true];
+var c = [false];
+ for (i = 0; i < a.length; i++){
+  if (a[i] % 2!== 0 )  {
+ 
+  }
+}
+console.log(b);
+for (i = 0; i < a.length; i++){
+  if (a[i] % 2=== 0 )  {
+
+  }
+}
+console.log(c);
+
+...............................................................
+var a = [17, 24, 4, 26, 19, 30, 2, 66, 40];
+b = [];
+c = [];
+odd = [true];
+even = [false];
+
+ for (i = 0; i < a.length; i++){
+  if (a[i] % 2!== 0 )  {
+        b.push(a[i]);
+        
+  }
+}
+for (i = 0; i < a.length; i++){
+  if (a[i] % 2=== 0 )  {
+    
+        c.push(a[i]);
+  }
+}
+ 
+console.log(b = odd);
+console.log(c = even);
+.......................................................................
+
+var m = [1,3,5,8,9,4,2,6];
+n = [];
+ min = 99999;
+console.log(even_number(m));
+function even_number(x) {
+  for (i=0; i < x.length ; i++){
+    if (x[i] %2 === 0){
+      n.push(x[i]);
+      
+      }
+      
+    }
+  return n;
+}
+console.log(min_number(n));
+function min_number(x) {
+  for (i=0; i < x.length ; i++){
+    if (x[i] < min){
+      min = x[i];
+      }
+    }
+ return min;
+}
+
+..................................................................
+var x =[20,23,50,6,54,78];
+
+for (var i=0; i<x.length; i++) {
+        
+         if (x[i] % 2 === 0) {
+                console.log(x[i] + " is even");  
+        }
+        else {
+                console.log(x[i] + " is odd");
+        }
+}

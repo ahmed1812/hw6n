@@ -1,0 +1,56 @@
+4. Modify the pseudocode in 3 so the program prints two lists, a list of odd numbers with the minimum number, and a list of even numbers with the minimum even number.
+
+
+Var a = [17, 24, 4, 26, 19, 30, 2, 66, 40];
+Var min odd = a[0];
+
+Var position = 0;
+Var lenght_of_array = a.lenght;
+While (position<lenght_of_array) {
+If (a[position] < min odd ){
+     Min odd = a(position);
+}else {
+(a[position] < min even){
+     Min even= a(position);
+}
+Print a(position);
+}
+Position = position + 1;
+}
+
+
+...........................................................................
+
+var a = [17, 24, 4, 26, 19, 30, 2, 66, 40];
+b = [];
+c = [];
+odd = [true];
+even = [false];
+var min_o= 9999;
+var min_e = 9999;
+ for (i = 0; i < a.length; i++){
+  if (a[i] % 2!== 0 )  {
+        b.push(a[i]);
+        
+  }
+}
+for (i = 0; i < a.length; i++){
+  if (a[i] % 2=== 0 )  {
+    
+        c.push(a[i]);
+  }
+}
+ for (i =0; i < b.length; i++){
+  if (b[i] <min_o){
+        min_o=b[i];
+    }
+}
+for (i =0; i < c.length; i++){
+  if (c[i] <min_e){
+        min_e=c[i];
+    }
+}
+console.log(b = odd);
+console.log(c = even);
+console.log(min_o);
+console.log(min_e);
